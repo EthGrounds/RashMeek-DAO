@@ -1,90 +1,21 @@
-# Hardhat Vue.js Starter Template (with web3js)
+# RashMeek DAO on Daohaus 
 
-A starter template for Ethereum dApps that uses the following tools:
+## Link: https://app.daohaus.club/dao/0x4/0xd5f9b61a55568eacebf2d79ee9694e6503f36f3b
+Note : DAO is summoned on Rinkerby network.
 
-- Hardhat
-- Truffle testing suite
-- Web3js
-- Vue & Vuex
-- Web3Modal
-- Bootstrap 5
-- Vue Toasted
-- Vue Gravatar
+## Description
 
-## Features
+Argument settlement DAO, All community members , friends and family  would use this DAO to coordinate and settle any disputed topics. When a proposal is done , people view the opinions of both the parties and decide who is right and vote for them. 
 
-### Seamless connect/disconnect wallet experience (using Web3Modal)
+Who ever gets the majority of vote wins. 
 
-Web3Modal is used to support various different Ethereum wallets. When user switches between accounts and even chains, the UI quickly notices that and adapts to the change (account and ETH balance data are refreshed).
+An example would be , 
+Proposal : MintChocolate Chip Ice-cream tastes like toothpaste and is not good flavour. - Rashmi 
+Meeku disagrees and prefers it. 
 
-![](assets/web3modal.png)
+The members vote in favour of Rashmi or Meeku, Whoever amongst them have majority of votes wins !
 
-### Alert when not on mainnet
+If Rashmi wins ( so obvious ) , both Rashmi and Meeku would have to agree on No Mint chocolate chip ice-cream.
 
-If user's wallet is not set to Mainnet, an unobtrusive yellow alert band shows up just above the navigation bar. The alert notifies the user which (testnet) chain they are currently using.
-
-![](assets/chain-alert.png)
-
-### Storing contract addresses and ABIs on front-end
-
-The deploy.js script automatically stores all contract ABIs and their respective addresses in the /frontend/src/contracts folder.
-
-Addresses are separated from one another per contract name and also per chain ID.
-
-Example (`addresses.json`):
-
-```json
-{
-  "Token":{
-    "1337":"0x78afecb367f032d93eDf865Ada339AFf6ef2621b",
-    "3":"0x5FbDB2315678afecb367f032d93F642f64180aa3",
-    "1":"0xE2Df865998BD3f20117e037d1293367f032d93F6"
-  },
-  "Farm":{
-    "1337":"0x1Cf865998BD3f20eB6BCdAda339aa8BD3f2e26eb",
-    "3":"0x998BD3f20eB6Bafecb3673f201ca17e037d10aa3",
-    "1":"0xBCdAda33b67815678afecb365998BD3f2e26BCdA"
-  }
-}
-```
-
-## npm install
-
-Run installations in both root and in the frontend folder:
-
-```bash
-npm install
-cd frontend && npm install
-```
-
-## Run Vue app
-
-```bash
-cd frontend && npm run serve
-```
-
-## Tests
-
-### Solidity/Hardhat
-
-```bash
-npx hardhat test
-```
-
-## Deployment to ganache
-
-```bash
-npx hardhat run scripts/deploy.js --network ganache
-```
-
-## Deployment to a remote blockchain
-
-```bash
-npx hardhat run scripts/deploy.js --network goerli
-```
-
-## Verify on Etherscan
-
-```bash
-npx hardhat --network mainnet etherscan-verify --api-key <apikey>
-```
+## Apply to be a member 
+Link: https://app.daohaus.club/dao/0x4/0xd5f9b61a55568eacebf2d79ee9694e6503f36f3b/members
